@@ -10,11 +10,18 @@ env/
 venv/
 *.egg-info/
 
-# Data folders (Do not upload large datasets)
-UnregisteredImages/
-Results/
-TrainingData/
-data/
+# Data folders (Ignore content but keep folders)
+UnregisteredImages/*
+!UnregisteredImages/.gitkeep
+
+Results/*
+!Results/.gitkeep
+
+TrainingData/*
+!TrainingData/.gitkeep
+
+data/*
+!data/.gitkeep
 
 # OS generated files
 .DS_Store
