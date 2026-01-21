@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+env/
+venv/
+*.egg-info/
+
+# Data folders (Do not upload large datasets)
+UnregisteredImages/
+Results/
+TrainingData/
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db

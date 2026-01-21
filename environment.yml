@@ -1,0 +1,15 @@
+name: mff_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - scikit-image
+  - pip
+  - pip:
+    - opencv-python
+    # 如果你将来需要训练网络，建议取消下面这行的注释，或者根据主机配置(CUDA版本)单独安装
+    # - torch
+    # - torchvision
